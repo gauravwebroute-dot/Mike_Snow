@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markley Snow Services | Commercial Snow Management · Bucks &amp; Montgomery County, PA</title>
+  <meta name="description" content="Commercial snow management and snow removal for institutional sites in Bucks and Montgomery County, PA. Call or text Mike directly: (267) 718-4912. Lot plowing, salting, de-icing, and recurring institutional contracts.">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/jpeg" href="logo.jpg">
+</head>
+<body>
+
+  <!-- ================================================================
+       NAVIGATION BAR — Sticky glassmorphic, 3D logo, mobile drawer
+       ================================================================ -->
+  <header class="site-nav" id="site-navigation" data-testid="site-navigation" role="banner">
+    <div class="container nav-container">
+
+      <!-- 3D Brand Logo -->
+      <a href="#" class="brand-logo-wrap" data-testid="brand-home" aria-label="Markley Snow Services — Return to top">
+        <div class="brand-logo-frame" role="img" aria-label="Markley Snow Services Logo">
+          <img src="logo.jpg" alt="Markley Snow Services Commercial Snow Management logo" class="brand-logo-img" width="180" height="54">
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav aria-label="Primary navigation">
+        <ul class="nav-menu" role="list">
+          <li role="listitem"><a href="#services"              class="nav-link" data-testid="nav-services-link">Services</a></li>
+          <li role="listitem"><a href="#operational-difference" class="nav-link">Difference</a></li>
+          <li role="listitem"><a href="#service-area"          class="nav-link" data-testid="nav-area-link">Service Area</a></li>
+          <li role="listitem"><a href="#hiring"                class="nav-link" data-testid="nav-hiring-link">Work With Us</a></li>
+        </ul>
+      </nav>
+
+      <!-- Phone CTA — far right -->
+      <a href="tel:+12677184912" class="nav-cta" data-testid="nav-call-link" aria-label="Call or Text Mike at (267) 718-4912">
+        <svg class="nav-phone-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+        </svg>
+        Call/Text Mike: (267)&nbsp;718-4912
+      </a>
+
+      <!-- Mobile Hamburger -->
+      <button class="mobile-menu-btn"
+              id="mobile-menu-button"
+              data-testid="mobile-menu-button"
+              aria-label="Toggle navigation menu"
+              aria-expanded="false"
+              aria-controls="mobile-nav-drawer">
+        <!-- Hamburger icon (shown by default) -->
+        <svg class="hamburger-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+          <line x1="3" y1="6"  x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <!-- Close icon (shown when open via CSS) -->
+        <svg class="close-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+          <line x1="18" y1="6"  x2="6"  y2="18"></line>
+          <line x1="6"  y1="6"  x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Slide Drawer -->
+    <nav class="mobile-nav-drawer" id="mobile-nav-drawer" aria-label="Mobile navigation" aria-hidden="true">
+      <a href="#services"               class="nav-link">Services</a>
+      <a href="#operational-difference" class="nav-link">The Difference</a>
+      <a href="#service-area"           class="nav-link">Service Area</a>
+      <a href="#hiring"                 class="nav-link">Work With Us</a>
+      <a href="tel:+12677184912"        class="nav-cta">Call/Text Mike: (267) 718-4912</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ================================================================
+         HERO — Full Viewport, Deep Scrim, 3D Parallax, Floating Badge
+         ================================================================ -->
+    <section class="hero-section" id="hero-section" data-testid="hero-section" aria-label="Hero">
+
+      <!-- Parallax Background Image Layer -->
+      <div class="hero-bg-wrapper" aria-hidden="true">
+        <img
+          src="https://images.pexels.com/photos/35826506/pexels-photo-35826506.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1200&w=1600"
+          alt=""
+          class="hero-bg-img"
+          loading="eager"
+          fetchpriority="high"
+        >
+      </div>
+      <!-- Directional contrast overlay (text safe on left, image reveals on right) -->
+      <div class="hero-overlay"     aria-hidden="true"></div>
+      <div class="hero-bottom-fade" aria-hidden="true"></div>
+
+      <div class="container hero-container">
+
+        <!-- Left: Hero Copy -->
+        <div class="hero-content">
+
+          <div class="hero-eyebrow">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+              <polyline points="23 7 13.5 16.5 8.5 11.5 1 19"></polyline>
+              <polyline points="17 7 23 7 23 13"></polyline>
+            </svg>
+            COMMERCIAL SNOW MANAGEMENT · PA
+          </div>
+
+          <h1 class="hero-title">
+            <span class="title-white">WHEN IT SNOWS,</span>
+            <span class="title-blue">THE LOT IS ALREADY CLEAR.</span>
+          </h1>
+
+          <p class="hero-description">
+            Big-site snow and ice operations for the places that cannot afford a late opening.
+            Bucks and Montgomery County, handled before the first shift arrives.
+          </p>
+
+          <div class="hero-actions">
+            <a href="tel:+12677184912" class="btn btn-primary" data-testid="call-mike-button" aria-label="Call Mike at (267) 718-4912">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+              </svg>
+              CALL MIKE
+            </a>
+            <a href="sms:+12677184912" class="btn btn-secondary" data-testid="text-mike-button" aria-label="Text Mike at (267) 718-4912">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+              TEXT MIKE
+            </a>
+          </div>
+
+          <!-- Proof Points -->
+          <ul class="hero-proof-list" aria-label="Service highlights">
+            <li class="hero-proof-item"><span class="hero-proof-check" aria-hidden="true">✓</span> RECURRING CONTRACTS</li>
+            <li class="hero-proof-item"><span class="hero-proof-check" aria-hidden="true">✓</span> INSTITUTIONAL SITES</li>
+            <li class="hero-proof-item"><span class="hero-proof-check" aria-hidden="true">✓</span> STORM-READY CREWS</li>
+          </ul>
+        </div>
+
+        <!-- Right: 3D Floating Stamp -->
+        <div class="hero-stamp-wrap" aria-hidden="true">
+          <div class="hero-stamp-badge">
+            <div class="hero-stamp-inner-ring"></div>
+            <div class="hero-stamp-inner-ring-2"></div>
+            <span class="hero-stamp-top">DEPLOYED</span>
+            <span class="hero-stamp-sub">BEFORE</span>
+            <div  class="hero-stamp-divider"></div>
+            <span class="hero-stamp-bottom">7AM</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================================================================
+         INSTITUTIONAL CLIENT STRIP — High-vis orange
+         ================================================================ -->
+    <section class="client-strip" aria-label="Client types we serve">
+      <div class="container client-strip-container">
+        <div class="client-strip-lead">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" stroke-width="2" stroke="currentColor" fill="none"/>
+            <polyline points="9 22 9 12 15 12 15 22" stroke="currentColor" stroke-width="2" fill="none"/>
+          </svg>
+          BUILT FOR PROPERTIES THAT OPEN EARLY
+        </div>
+        <ul class="client-strip-types" aria-label="Target client types" role="list">
+          <li class="client-type-item">SCHOOLS</li>
+          <li class="client-type-item">HOSPITALS</li>
+          <li class="client-type-item">CORPORATE CAMPUSES</li>
+          <li class="client-type-item">LARGE PARKING LOTS</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- ================================================================
+         SERVICES SECTION — Pale Sage, 4×3D Hover Cards
+         ================================================================ -->
+    <section class="services-section" id="services" data-testid="services-section">
+      <div class="container">
+        <div class="section-header-wrap reveal">
+          <span class="section-subtitle">THE SCOPE</span>
+          <h2 class="section-title">CLEAR THE WHOLE PICTURE.</h2>
+          <p class="section-description">
+            From first treatment to final walkway check, our crews keep your property open,
+            safe, and moving through the storm.
+          </p>
+        </div>
+
+        <div class="services-grid">
+
+          <!-- Card 01: Lot Plowing -->
+          <article class="service-card reveal reveal-delay-1" data-testid="service-card-01">
+            <div class="service-card-header">
+              <span class="service-number">01</span>
+              <div class="service-arrow-wrap" aria-hidden="true">
+                <svg class="service-arrow-icon" viewBox="0 0 24 24">
+                  <path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-7.85-1.42 1.42L16.86 11H5v2z"/>
+                </svg>
+              </div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">LOT PLOWING</h3>
+              <p class="service-card-desc">
+                Large-format parking lots cleared and kept open through the storm, with trucks
+                staged in advance of the forecast.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 02: Salting & De-Icing -->
+          <article class="service-card reveal reveal-delay-2" data-testid="service-card-02">
+            <div class="service-card-header">
+              <span class="service-number">02</span>
+              <div class="service-arrow-wrap" aria-hidden="true">
+                <svg class="service-arrow-icon" viewBox="0 0 24 24">
+                  <path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-7.85-1.42 1.42L16.86 11H5v2z"/>
+                </svg>
+              </div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">SALTING &amp; DE-ICING</h3>
+              <p class="service-card-desc">
+                Pre-treatment and even coverage across wide surfaces to keep freeze-ups
+                from becoming morning problems.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 03: Walkways & Entrances -->
+          <article class="service-card reveal reveal-delay-3" data-testid="service-card-03">
+            <div class="service-card-header">
+              <span class="service-number">03</span>
+              <div class="service-arrow-wrap" aria-hidden="true">
+                <svg class="service-arrow-icon" viewBox="0 0 24 24">
+                  <path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-7.85-1.42 1.42L16.86 11H5v2z"/>
+                </svg>
+              </div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">WALKWAYS &amp; ENTRANCES</h3>
+              <p class="service-card-desc">
+                Hand crews cover sidewalks, building entrances, loading docks, and every
+                edge a machine cannot safely reach.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 04: Institutional Contracts -->
+          <article class="service-card reveal reveal-delay-4" data-testid="service-card-04">
+            <div class="service-card-header">
+              <span class="service-number">04</span>
+              <div class="service-arrow-wrap" aria-hidden="true">
+                <svg class="service-arrow-icon" viewBox="0 0 24 24">
+                  <path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-7.85-1.42 1.42L16.86 11H5v2z"/>
+                </svg>
+              </div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">INSTITUTIONAL CONTRACTS</h3>
+              <p class="service-card-desc">
+                Schools, hospitals, and corporate properties where the lot has to be usable
+                at opening — not by mid-morning.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================================================================
+         OPERATIONAL DIFFERENCE — Split, Image Zoom + Dark Panel
+         ================================================================ -->
+    <section class="difference-section" id="operational-difference">
+      <div class="difference-grid">
+
+        <!-- Left: Equipment Photo -->
+        <div class="diff-image-col" aria-hidden="true">
+          <img
+            src="https://images.pexels.com/photos/29344147/pexels-photo-29344147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1000&w=1200"
+            alt="Heavy-duty commercial snow plowing equipment ready for dispatch"
+            class="diff-image"
+            loading="lazy"
+          >
+          <div class="diff-image-scrim"></div>
+        </div>
+
+        <!-- Right: Charcoal Panel with Stats -->
+        <div class="diff-content-col">
+          <span class="diff-eyebrow">THE DIFFERENCE</span>
+          <h2 class="diff-title">
+            NOT A GUY WITH A PLOW.<br>
+            <span class="orange-emphasis">A REAL OPERATION.</span>
+          </h2>
+
+          <p class="diff-body">
+            Mike's work lives on institutional contracts: large lots, recurring routes,
+            and real volume. That means planning ahead, dispatching early, and treating
+            every storm like the opening bell matters.
+          </p>
+
+          <div class="diff-stats-grid">
+            <div class="diff-stat-item reveal">
+              <span class="diff-stat-number">24/7</span>
+              <span class="diff-stat-label">Storm monitoring</span>
+            </div>
+            <div class="diff-stat-item reveal reveal-delay-1">
+              <span class="diff-stat-number">2</span>
+              <span class="diff-stat-label">County coverage</span>
+            </div>
+            <div class="diff-stat-item reveal reveal-delay-2">
+              <span class="diff-stat-number">1</span>
+              <span class="diff-stat-label">Direct line to Mike</span>
+            </div>
+          </div>
+
+          <a href="tel:+12677184912" class="btn btn-primary">
+            TALK THROUGH YOUR PROPERTY
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================================================================
+         SERVICE AREA — Sage bg, 3D County Orbit Card
+         ================================================================ -->
+    <section class="area-section" id="service-area" data-testid="service-area-section">
+      <div class="container area-grid">
+
+        <!-- Left: Copy & CTAs -->
+        <div class="area-content reveal">
+          <span class="section-subtitle">ON THE GROUND</span>
+          <h2 class="section-title">
+            CLOSE TO THE<br>
+            <span class="text-orange">WORK.</span>
+          </h2>
+          <p class="area-description">
+            Serving commercial properties across Bucks and Montgomery County, Pennsylvania.
+            If your site needs a clear, safe opening, call Mike directly.
+          </p>
+          <div class="area-actions">
+            <a href="tel:+12677184912" class="btn btn-dark">CALL MIKE</a>
+            <a href="sms:+12677184912" class="btn btn-primary">TEXT MIKE</a>
+          </div>
+        </div>
+
+        <!-- Right: 3D County Orbit Card -->
+        <div class="area-card-wrap reveal reveal-delay-2">
+          <div class="county-card" aria-label="Coverage area: Bucks and Montgomery County, PA">
+            <!-- Orbital graphics -->
+            <div class="county-orbit-graphic"  aria-hidden="true"></div>
+            <div class="county-orbit-inner"    aria-hidden="true"></div>
+
+            <div class="county-code">
+              <span class="county-code-dot" aria-hidden="true"></span>
+              PA · 18901
+            </div>
+            <h3 class="county-main-heading">
+              BUCKS<br>
+              <span class="orange-amp">&amp;</span><br>
+              MONTGOMERY
+            </h3>
+
+            <p class="county-town-tags-title">Key townships &amp; corridors</p>
+            <ul class="county-town-tags" aria-label="Service townships" role="list">
+              <li class="town-tag">LANGHORNE</li>
+              <li class="town-tag">HORSHAM</li>
+              <li class="town-tag">HUNTINGDON VALLEY</li>
+              <li class="town-tag">FT. WASHINGTON</li>
+              <li class="town-tag">KING OF PRUSSIA</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================================================================
+         HIRING SECTION — 3D Rate Cards, Config-driven rates
+         ================================================================ -->
+    <section class="hiring-section" id="hiring" data-testid="hiring-section">
+      <div class="container">
+
+        <div class="hiring-intro-wrap reveal">
+          <span class="section-subtitle">JOIN THE CREW</span>
+          <h2 class="section-title">
+            STEADY WORK.<br>
+            <span class="text-orange">REAL CONTRACTS.</span>
+          </h2>
+          <p class="section-description">
+            Snow season is a short window. We fill it with dependable commercial work
+            for people who know how to show up and get it done.
+          </p>
+        </div>
+
+        <div class="hiring-grid">
+
+          <!-- Rate Card 1: Plow Drivers — $125/hr -->
+          <a href="sms:+12677184912"
+             class="rate-card reveal reveal-delay-1"
+             data-testid="hiring-card-plow-drivers"
+             aria-label="Text Mike about Plow Drivers role — $125 per hour">
+            <div class="rate-card-top">
+              <div class="rate-card-icon-wrap" aria-hidden="true">
+                <svg class="rate-card-icon" viewBox="0 0 24 24">
+                  <path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+                </svg>
+              </div>
+              <h3 class="rate-card-title">PLOW DRIVERS</h3>
+              <div class="rate-price-row">
+                <span class="rate-amount">$125</span>
+                <span class="rate-unit">/ HR</span>
+              </div>
+              <span class="rate-note">OWN TRUCK + PLOW REQUIRED</span>
+            </div>
+            <div class="rate-card-action">
+              <span class="rate-action-text">Ask Mike about this role</span>
+              <svg class="rate-action-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-7.85-1.42 1.42L16.86 11H5v2z"/>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Rate Card 2: Machine Operators — $45/hr -->
+          <a href="sms:+12677184912"
+             class="rate-card reveal reveal-delay-2"
+             data-testid="hiring-card-machine-operators"
+             aria-label="Text Mike about Machine Operators role — $45 per hour">
+            <div class="rate-card-top">
+              <div class="rate-card-icon-wrap" aria-hidden="true">
+                <svg class="rate-card-icon" viewBox="0 0 24 24">
+                  <path d="M12 3L4 7.5v5.5C4 17.39 7.41 21.5 12 23c4.59-1.5 8-5.61 8-10V7.5L12 3zm0 4l5 2.75V12a9.54 9.54 0 01-5 8.23A9.54 9.54 0 017 12V9.75L12 7zm0 2L8 11.25v1A7.06 7.06 0 0012 18a7.06 7.06 0 004-5.75v-1L12 9z"/>
+                </svg>
+              </div>
+              <h3 class="rate-card-title">MACHINE OPERATORS</h3>
+              <div class="rate-price-row">
+                <span class="rate-amount">$45</span>
+                <span class="rate-unit">/ HR</span>
+              </div>
+              <span class="rate-note">LOADERS &amp; SPREADERS</span>
+            </div>
+            <div class="rate-card-action">
+              <span class="rate-action-text">Ask Mike about this role</span>
+              <svg class="rate-action-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-7.85-1.42 1.42L16.86 11H5v2z"/>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Rate Card 3: Shovelers — $35/hr -->
+          <a href="sms:+12677184912"
+             class="rate-card reveal reveal-delay-3"
+             data-testid="hiring-card-shovelers"
+             aria-label="Text Mike about Shovelers role — $35 per hour">
+            <div class="rate-card-top">
+              <div class="rate-card-icon-wrap" aria-hidden="true">
+                <svg class="rate-card-icon" viewBox="0 0 24 24">
+                  <path d="M22 11H14V9l-3-3H4V4H2v16h2v-7h7v7h2v-4h3v4h2v-7.42l4-.58V11zm-6-3h2.69L22 10.4V11h-4l-2-3z"/>
+                </svg>
+              </div>
+              <h3 class="rate-card-title">SHOVELERS</h3>
+              <div class="rate-price-row">
+                <span class="rate-amount">$35</span>
+                <span class="rate-unit">/ HR</span>
+              </div>
+              <span class="rate-note">NO EXPERIENCE REQUIRED</span>
+            </div>
+            <div class="rate-card-action">
+              <span class="rate-action-text">Ask Mike about this role</span>
+              <svg class="rate-action-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-7.85-1.42 1.42L16.86 11H5v2z"/>
+              </svg>
+            </div>
+          </a>
+
+        </div>
+
+        <!-- Hiring Footer Note & CTA -->
+        <div class="hiring-footer-content reveal">
+          <p class="hiring-commercial-scope">
+            COMMERCIAL SITES. CLEAR SCOPE. DIRECT COMMUNICATION.<br>
+            EQUIPMENT SUBCONTRACTORS WELCOME.
+          </p>
+          <a href="sms:+12677184912" class="btn btn-primary">
+            TEXT MIKE TO GET STARTED
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================================================================
+         CONTACT BAND — Full-width high-vis orange CTA
+         ================================================================ -->
+    <section class="contact-band" aria-label="Contact Mike directly">
+      <div class="container contact-band-container">
+        <div class="contact-band-content">
+          <div class="contact-band-eyebrow">READY FOR THE NEXT STORM?</div>
+          <h2 class="contact-band-title">
+            LET'S TALK ABOUT<br>
+            YOUR PROPERTY.
+          </h2>
+          <p class="contact-band-desc">
+            Call or text Mike directly. No forms, no waiting on a callback.
+          </p>
+        </div>
+
+        <div class="contact-band-actions">
+          <a href="tel:+12677184912" class="btn btn-white">CALL MIKE</a>
+          <a href="sms:+12677184912" class="btn btn-secondary">TEXT MIKE</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ================================================================
+       FOOTER — Dark charcoal, legal links, direct phone
+       ================================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top-grid">
+
+        <!-- Brand left -->
+        <div class="footer-brand-wrap">
+          <a href="#" aria-label="Markley Snow Services — Return to top">
+            <div class="footer-logo-frame">
+              <img src="logo.jpg" alt="Markley Snow Services" class="brand-logo-img" width="180" height="56">
+            </div>
+          </a>
+          <p class="footer-tagline">
+            Commercial snow management · Bucks &amp; Montgomery County, PA
+          </p>
+        </div>
+
+        <!-- Contact right -->
+        <div class="footer-contact-block">
+          <a href="tel:+12677184912" class="footer-phone-cta" aria-label="Call or text Mike at (267) 718-4912">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+              <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+            </svg>
+            Call/Text Mike: (267) 718-4912
+          </a>
+          <span class="footer-sub-text">Direct mobile dispatch for institutional accounts</span>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <p class="footer-copy">
+          &copy; <span id="year">2026</span> Markley Snow Services. All rights reserved.
+        </p>
+        <ul class="footer-legal-links" role="list">
+          <li role="listitem"><a href="terms.html"   class="footer-legal-link" data-testid="terms-link">Terms of Service</a></li>
+          <li role="listitem"><a href="privacy.html" class="footer-legal-link" data-testid="privacy-link">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ================================================================
+       TIMED HIRING POPUP — Fires at 5s, 3D entrance, ESC/click closes
+       ================================================================ -->
+  <div class="hiring-popup-backdrop"
+       id="hiring-popup"
+       data-testid="hiring-popup"
+       role="dialog"
+       aria-modal="true"
+       aria-labelledby="popup-heading"
+       aria-hidden="true">
+
+    <div class="hiring-popup-panel" role="document">
+
+      <!-- ✕ Close Button -->
+      <button class="hiring-popup-close"
+              id="hiring-popup-close"
+              data-testid="hiring-popup-close"
+              aria-label="Close hiring popup">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true" focusable="false">
+          <line x1="18" y1="6"  x2="6"  y2="18"></line>
+          <line x1="6"  y1="6"  x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="popup-eyebrow">WINTER STAFFING</div>
+      <h2 class="popup-title" id="popup-heading">
+        KEEP THE SNOW<br>
+        <span style="color:var(--orange);">MOVING.</span>
+      </h2>
+
+      <p class="popup-desc">
+        We're bringing on plow drivers, machine operators, shovelers, and equipment
+        subcontractors for commercial routes.
+      </p>
+
+      <!-- Rates List -->
+      <div class="popup-rates-list" data-testid="hiring-rates" aria-label="Hiring rates">
+        <div class="popup-rate-item">
+          <span class="popup-role-name">PLOW DRIVERS</span>
+          <span class="popup-role-pay">$125 / HR</span>
+        </div>
+        <div class="popup-rate-item">
+          <span class="popup-role-name">MACHINE OPERATORS</span>
+          <span class="popup-role-pay">$45 / HR</span>
+        </div>
+        <div class="popup-rate-item">
+          <span class="popup-role-name">SHOVELERS</span>
+          <span class="popup-role-pay">$35 / HR</span>
+        </div>
+      </div>
+
+      <div class="popup-actions">
+        <a href="tel:+12677184912" class="btn btn-secondary">CALL MIKE</a>
+        <a href="sms:+12677184912" class="btn btn-primary">TEXT MIKE</a>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
