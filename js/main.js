@@ -14,7 +14,7 @@ const DISPLAY_PHONE = "(267) 718-4912";
 
 // EDITABLE HIRING CONFIG: update these values when rates change.
 const HIRING_ROLES = [
-  { id: "plow-drivers",       title: "Plow drivers",       rate: "$125", unit: "/ hr", note: "Own truck + plow required" },
+  { id: "plow-drivers",       title: "Plow drivers (must have your own truck/plow)", rate: "$125", unit: "/ hr", note: "Own truck + plow required" },
   { id: "machine-operators",  title: "Machine operators",  rate: "$45",  unit: "/ hr", note: "Loaders & spreaders"       },
   { id: "shovelers",          title: "Shovelers",          rate: "$35",  unit: "/ hr", note: "No experience required"    }
 ];
